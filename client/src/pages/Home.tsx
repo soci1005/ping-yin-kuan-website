@@ -442,20 +442,20 @@ export default function Home() {
                   {
                     degree: 'Ph.D. in Sociology',
                     institution: 'University of Virginia, USA',
-                    year: '1992',
-                    details: 'Dissertation: Social Stratification and Educational Mobility in Taiwan'
+                    year: '1993',
+                    details: '社會學博士'
                   },
                   {
                     degree: 'M.A. in Sociology',
-                    institution: 'National Taiwan University',
-                    year: '1988',
-                    details: 'Thesis: Survey Research Methods in Social Sciences'
+                    institution: 'Virginia Commonwealth University, USA',
+                    year: '1982',
+                    details: '社會學碩士'
                   },
                   {
-                    degree: 'B.A. in Sociology',
-                    institution: 'National Taiwan University',
-                    year: '1986',
-                    details: ''
+                    degree: 'B.A. in Law',
+                    institution: 'Fu Jen Catholic University, Taiwan',
+                    year: '1977',
+                    details: '天主教輔仁大學社會學系法學士'
                   }
                 ].map((edu, idx) => (
                   <div key={idx} className="relative pl-6 pb-6 border-l-2 border-blue-300">
@@ -477,24 +477,29 @@ export default function Home() {
               <div className="space-y-4">
                 {[
                   {
-                    title: 'Distinguished Professor (Adjunct)',
-                    institution: 'International College of Innovation',
-                    period: '2020 - Present'
+                    title: '名譽教授 (Emeritus Professor)',
+                    institution: '國立政治大學亞太研究英語博士學位學程',
+                    period: '2022.02 - Present'
                   },
                   {
-                    title: 'Professor Emeritus',
-                    institution: 'Asia-Pacific Studies Program',
-                    period: '2018 - Present'
+                    title: '兼任特聘教授、國際合作策略長',
+                    institution: '國立政治大學國際創新學院',
+                    period: '2021.08 - Present'
                   },
                   {
-                    title: 'Full Professor',
-                    institution: 'National Chengchi University',
-                    period: '2010 - 2020'
+                    title: '副院長',
+                    institution: '國立政治大學社會科學學院',
+                    period: '2018.04 - 2020.01'
                   },
                   {
-                    title: 'Associate Professor',
-                    institution: 'National Chengchi University',
-                    period: '2000 - 2010'
+                    title: '主任',
+                    institution: '國立政治大學亞太研究英語博士學位學程',
+                    period: '2017.04 - 2020.01'
+                  },
+                  {
+                    title: '教授',
+                    institution: '國立政治大學社會學系',
+                    period: '2001.08 - 2022.01'
                   }
                 ].map((pos, idx) => (
                   <div key={idx} className="p-3 bg-blue-50 rounded-lg border-l-2 border-blue-400">
@@ -562,18 +567,19 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-serif font-bold text-gray-800 mb-4">
-                主要研究機構 (Notable Affiliations)
+                主要機構連結 (Notable Affiliations)
               </h3>
               <ul className="space-y-3">
                 {[
+                  '台灣羅四維夥伴學習促進協會 (Daniel Ross Association for the Promotion of Partner Based Learning)',
                   '台灣教育長期追蹤資料庫 (Taiwan Education Panel Survey)',
                   '台灣教育長期追蹤資料庫後續調查 (Taiwan Education Panel Survey and Beyond)',
                   '臺灣後期中等教育長期追蹤資料庫 (Taiwan Upper Secondary Education Database)',
                   '中央研究院社會學研究所 (Institute of Sociology, Academia Sinica)',
-                  'Sociology at Wisconsin-Madison',
-                  'Sociology at Utrecht University',
                   '政大書院 (Chengchi College)',
-                  '國立臺灣師範大學教育學系 (Education Department, National Taiwan Normal University)'
+                  '國立臺灣師範大學教育學系 (Education Department, National Taiwan Normal University)',
+                  'Department of Sociology, University of Wisconsin-Madison',
+                  'Department of Sociology, Utrecht University'
                 ].map((affiliation, idx) => (
                   <li key={idx} className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
@@ -588,15 +594,14 @@ export default function Home() {
               </h3>
               <ul className="space-y-3">
                 {[
-                  '台灣羅四維夥伴學習促進協會 (Daniel Ross Association for the Promotion of Partner Based Learning)',
-                  'China News Analysis (中國新聞分析)',
-                  'UVA Club of Taiwan',
-                  '臺灣社會學刊 (Taiwanese Journal of Sociology)',
-                  '臺灣社會學 (Taiwanese Sociology)',
-                  '教育研究集刊 (Bulletin of Educational Research)',
-                  '當代教育研究季刊 (Contemporary Educational Research Quarterly)',
-                  '調查研究─方法與應用 (Survey Research-Methods and Application)',
-                  '歐美研究季刊 (EurAmerica)'
+                  '當代教育研究 (Contemporary Educational Research) - 編輯委員 (2016 - Present)',
+                  '臺灣社會學刊 (Taiwanese Journal of Sociology) - 編輯委員 (2018-2020)',
+                  '臺灣社會學 (Taiwanese Sociology) - 編輯委員 (2013-2015)',
+                  '教育研究集刊 (Bulletin of Educational Research) - 編輯委員 (2006-2014)',
+                  '調查研究─方法與應用 (Survey Research-Methods and Application) - 編輯委員 (2010-2013)',
+                  '臺灣教育評論月刊 (Taiwan Education Review) - 編輯委員 (2016-2017)',
+                  '台灣社會學會 (Taiwan Sociological Association) - 理事 (2002-2004)',
+                  '台灣社會學會 (Taiwan Sociological Association) - 秘書長 (2000-2002)'
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
