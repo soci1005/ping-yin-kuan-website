@@ -26,7 +26,7 @@ export default function Home() {
           <div className="container mx-auto px-4 md:px-8">
             <div className="max-w-2xl flex items-center gap-8">
               <img
-                src="/manus-storage/ping_yin_kuan_portrait_2d7fbbff.webp"
+                src="https://ici.nccu.edu.tw/upload/91/staffing/5852/%E5%85%BC%E4%BB%BB%E6%95%99%E5%B8%AB-%E9%97%9C%E7%A7%89%E5%AF%85%E8%80%81%E5%B8%AB.jpg"
                 alt="Ping-Yin Kuan"
                 className="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg flex-shrink-0"
               />
