@@ -456,10 +456,10 @@ export default function Home() {
                     details: '社會學碩士'
                   },
                   {
-                    degree: 'B.A. in Law',
+                    degree: 'B.A. in Sociology',
                     institution: 'Fu Jen Catholic University, Taiwan',
                     year: '1977',
-                    details: '天主教輔仁大學社會學系法學士'
+                    details: '天主教輔仁大學社會學系社會學士'
                   }
                 ].map((edu, idx) => (
                   <div key={idx} className="relative pl-6 pb-6 border-l-2 border-blue-300">
