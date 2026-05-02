@@ -648,18 +648,33 @@ export default function Home() {
               <div>
                 <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
                   <Award className="w-5 h-5 text-blue-600" />
-                  榮譽與獎項 (Honors & Awards)
+                  榮譽與獎項（研究相關）(Honors & Awards - Research Related)
                 </h4>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
-                    <span>The winner of the 2012 CIES George Bereday Award (2012)</span>
+                    <span>1994~1998 國科會甲種研究獎勵</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
-                    <span>Research Excellence Award, National Chengchi University (2018)</span>
+                    <span>2006 國立政治大學學術研究成果國際化優等研究獎</span>
                   </li>
-
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2010~2016 科技部獎勵特殊優秀人才</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2012 CIES (Comparative and International Education Society) George Bereday Award (for the best article published in Comparative Education Review in 2011)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2018 國立政治大學學術研究優良獎</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2018~2021 科技部研究獎勵</span>
+                  </li>
                 </ul>
               </div>
               <div>
