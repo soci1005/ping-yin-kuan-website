@@ -56,6 +56,10 @@ export default function Home() {
                   soci1005@nccu.edu.tw
                 </a>
                 <br />
+                <a href="mailto:pykuan@nccu.edu.tw" className="text-blue-600 hover:text-blue-800 break-all">
+                  pykuan@nccu.edu.tw
+                </a>
+                <br />
                 <a href="mailto:soci1005@gmail.com" className="text-blue-600 hover:text-blue-800 break-all">
                   soci1005@gmail.com
                 </a>
