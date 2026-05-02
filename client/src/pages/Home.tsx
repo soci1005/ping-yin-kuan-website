@@ -702,6 +702,8 @@ export default function Home() {
               <ul className="space-y-3">
                 {[
                   '台灣羅四維夥伴學習促進協會 (Daniel Ross Association for the Promotion of Partner Based Learning)',
+                  '台灣社會學會 (Taiwan Sociological Association) - 理事 (2002-2004)',
+                  '台灣社會學會 (Taiwan Sociological Association) - 秘書長 (2000-2002)',
                   '台灣教育長期追蹤資料庫 (Taiwan Education Panel Survey)',
                   '台灣教育長期追蹤資料庫後續調查 (Taiwan Education Panel Survey and Beyond)',
                   '臺灣後期中等教育長期追蹤資料庫 (Taiwan Upper Secondary Education Database)',
