@@ -659,29 +659,74 @@ export default function Home() {
                     <span className="text-blue-600 mt-1">•</span>
                     <span>Research Excellence Award, National Chengchi University (2018)</span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-blue-600 mt-1">•</span>
-                    <span>Fulbright Scholar, University of Wisconsin-Madison (2015)</span>
-                  </li>
+
                 </ul>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
                   <FileText className="w-5 h-5 text-blue-600" />
-                  專業活動 (Professional Activities)
+                  主要學術活動 (Major Academic Activities)
                 </h4>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
-                    <span>Editor, Taiwanese Journal of Sociology (2015-Present)</span>
+                    <span>2020.10~2021.07 元智大學社會暨政策科學學系 諮議委員</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
-                    <span>Board Member, Taiwan Education Panel Survey</span>
+                    <span>2019.11 台北醫學大學人文暨社會科學院「108年度系所學位學程暨通識教育自我評鑑」委員</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
-                    <span>Visiting Scholar, Utrecht University (2014)</span>
+                    <span>2018.08~2020.07 臺灣社會學刊 編輯委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2016.04~迄今 科技部人文社會科學研究中心 教育學門、社會學門學術研習營講員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2016.01~迄今 當代教育研究 編輯委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2016.01~2017.01 臺灣教育評論月刊 編輯委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2014.08~2016.12 國家教育研究院 教育部高級中學公民與社會科教科用書審定委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2013.06~2015.05 國立中山大學教育部高東屏區域教學資源中心大學教學效能及學習成效評估中心諮詢委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2013.01~2015.01 臺灣社會學 編輯委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2010.08~2013.07 調查研究─方法與應用 編輯委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2009.01~迄今 國立台灣師範大學教育研究與評鑑中心專家諮詢委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2008.08~2010.07 教育部高中優質化專家諮詢小組委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2006.11~2014.07 教育研究集刊 編輯委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2002.01~2004.12 台灣社會學會理事</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2000.01~2002.12 台灣社會學會秘書長</span>
                   </li>
                 </ul>
               </div>
