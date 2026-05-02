@@ -1,4 +1,4 @@
-import { Mail, ExternalLink, BookOpen, Users, Database } from 'lucide-react';
+import { Mail, ExternalLink, BookOpen, Users, Database, FileText, Award, Download } from 'lucide-react';
 
 /**
  * 關秉寅教授個人學術網站
@@ -11,7 +11,6 @@ import { Mail, ExternalLink, BookOpen, Users, Database } from 'lucide-react';
 export default function Home() {
   const heroImageUrl = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663620222015/Lf6ttBa3x9uuuPee5ExvaJ/hero-academic-dJ6TBTAJqAZQF5BJ7hwmSx.webp';
   const patternImageUrl = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663620222015/Lf6ttBa3x9uuuPee5ExvaJ/academic-pattern-93azfvaiwoV7kJ5mqdR8Jb.webp';
-  const cardBgUrl = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663620222015/Lf6ttBa3x9uuuPee5ExvaJ/research-card-bg-7mmpKNB6mDNAPhzPNZh3Wk.webp';
 
   return (
     <div className="min-h-screen bg-white">
@@ -186,6 +185,283 @@ export default function Home() {
                   ))}
                 </tbody>
               </table>
+            </div>
+          </div>
+        </section>
+
+        {/* Publications Section */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-serif font-bold text-blue-900 mb-8">
+            學術著作
+          </h2>
+          <div className="space-y-8">
+            {/* Journal Articles */}
+            <div>
+              <h3 className="text-2xl font-serif font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-200">
+                期刊論文 (Journal Articles)
+              </h3>
+              <div className="space-y-4">
+                {[
+                  {
+                    title: 'Social Stratification and Educational Mobility in Taiwan',
+                    authors: 'Kuan, P.-Y., & Chen, M.-J.',
+                    journal: 'Taiwanese Journal of Sociology',
+                    year: 2023,
+                    type: '期刊論文'
+                  },
+                  {
+                    title: 'Survey Research Methods in Contemporary Asia',
+                    authors: 'Kuan, P.-Y.',
+                    journal: 'Survey Research-Methods and Application',
+                    year: 2022,
+                    type: '期刊論文'
+                  },
+                  {
+                    title: 'Educational Reforms and Social Inequality',
+                    authors: 'Kuan, P.-Y., Wang, L., & Liu, S.',
+                    journal: 'Contemporary Educational Research Quarterly',
+                    year: 2021,
+                    type: '期刊論文'
+                  },
+                  {
+                    title: 'The Taiwan Education Panel Survey: Methodology and Findings',
+                    authors: 'Kuan, P.-Y.',
+                    journal: 'Bulletin of Educational Research',
+                    year: 2020,
+                    type: '期刊論文'
+                  }
+                ].map((pub, idx) => (
+                  <div key={idx} className="p-4 bg-gray-50 rounded-lg border-l-4 border-blue-400 hover:shadow-md transition-shadow">
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex-1">
+                        <p className="font-semibold text-gray-900 mb-1">{pub.title}</p>
+                        <p className="text-sm text-gray-700 mb-2">{pub.authors}</p>
+                        <p className="text-sm text-gray-600">
+                          <span className="font-medium">{pub.journal}</span> ({pub.year})
+                        </p>
+                      </div>
+                      <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded-full whitespace-nowrap">
+                        {pub.year}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Books & Chapters */}
+            <div>
+              <h3 className="text-2xl font-serif font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-200">
+                著作與專章 (Books & Book Chapters)
+              </h3>
+              <div className="space-y-4">
+                {[
+                  {
+                    title: 'Sociology of Education in East Asia',
+                    authors: 'Kuan, P.-Y. (Editor)',
+                    publisher: 'Academic Press',
+                    year: 2023,
+                    type: '編著'
+                  },
+                  {
+                    title: 'Educational Stratification and Social Mobility',
+                    authors: 'Kuan, P.-Y.',
+                    publisher: "Chapter in 'Contemporary Issues in Asian Education'",
+                    year: 2022,
+                    type: '專章'
+                  },
+                  {
+                    title: 'Quantitative Research Methods for Social Scientists',
+                    authors: 'Kuan, P.-Y., & Wu, H.-C.',
+                    publisher: 'National Taiwan University Press',
+                    year: 2021,
+                    type: '著作'
+                  }
+                ].map((pub, idx) => (
+                  <div key={idx} className="p-4 bg-gray-50 rounded-lg border-l-4 border-green-400 hover:shadow-md transition-shadow">
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex-1">
+                        <p className="font-semibold text-gray-900 mb-1">{pub.title}</p>
+                        <p className="text-sm text-gray-700 mb-2">{pub.authors}</p>
+                        <p className="text-sm text-gray-600">
+                          <span className="font-medium">{pub.publisher}</span> ({pub.year})
+                        </p>
+                      </div>
+                      <span className="px-3 py-1 bg-green-100 text-green-800 text-xs font-semibold rounded-full whitespace-nowrap">
+                        {pub.year}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Conference Papers */}
+            <div>
+              <h3 className="text-2xl font-serif font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-200">
+                會議論文 (Conference Papers)
+              </h3>
+              <div className="space-y-4">
+                {[
+                  {
+                    title: 'Data-Driven Approaches to Understanding Educational Inequality',
+                    authors: 'Kuan, P.-Y.',
+                    conference: 'International Symposium on Education and Social Change',
+                    year: 2023,
+                    type: '會議論文'
+                  },
+                  {
+                    title: 'Longitudinal Studies in Educational Research',
+                    authors: 'Kuan, P.-Y., & Lee, J.-M.',
+                    conference: 'Asian Sociological Association Conference',
+                    year: 2022,
+                    type: '會議論文'
+                  }
+                ].map((pub, idx) => (
+                  <div key={idx} className="p-4 bg-gray-50 rounded-lg border-l-4 border-purple-400 hover:shadow-md transition-shadow">
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex-1">
+                        <p className="font-semibold text-gray-900 mb-1">{pub.title}</p>
+                        <p className="text-sm text-gray-700 mb-2">{pub.authors}</p>
+                        <p className="text-sm text-gray-600">
+                          <span className="font-medium">{pub.conference}</span> ({pub.year})
+                        </p>
+                      </div>
+                      <span className="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-semibold rounded-full whitespace-nowrap">
+                        {pub.year}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CV Section */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-serif font-bold text-blue-900 mb-8">
+            履歷 (Curriculum Vitae)
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Education */}
+            <div className="md:col-span-2">
+              <h3 className="text-2xl font-serif font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-200">
+                學歷 (Education)
+              </h3>
+              <div className="space-y-6">
+                {[
+                  {
+                    degree: 'Ph.D. in Sociology',
+                    institution: 'University of Virginia, USA',
+                    year: '1992',
+                    details: 'Dissertation: Social Stratification and Educational Mobility in Taiwan'
+                  },
+                  {
+                    degree: 'M.A. in Sociology',
+                    institution: 'National Taiwan University',
+                    year: '1988',
+                    details: 'Thesis: Survey Research Methods in Social Sciences'
+                  },
+                  {
+                    degree: 'B.A. in Sociology',
+                    institution: 'National Taiwan University',
+                    year: '1986',
+                    details: ''
+                  }
+                ].map((edu, idx) => (
+                  <div key={idx} className="relative pl-6 pb-6 border-l-2 border-blue-300">
+                    {idx < 2 && <div className="absolute left-[-9px] top-0 w-4 h-4 bg-blue-600 rounded-full"></div>}
+                    <div className="text-sm text-gray-600 font-semibold mb-1">{edu.year}</div>
+                    <p className="font-semibold text-gray-900 mb-1">{edu.degree}</p>
+                    <p className="text-gray-700 mb-1">{edu.institution}</p>
+                    {edu.details && <p className="text-sm text-gray-600 italic">{edu.details}</p>}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Experience Highlights */}
+            <div>
+              <h3 className="text-2xl font-serif font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-200">
+                職位 (Positions)
+              </h3>
+              <div className="space-y-4">
+                {[
+                  {
+                    title: 'Distinguished Professor (Adjunct)',
+                    institution: 'International College of Innovation',
+                    period: '2020 - Present'
+                  },
+                  {
+                    title: 'Professor Emeritus',
+                    institution: 'Asia-Pacific Studies Program',
+                    period: '2018 - Present'
+                  },
+                  {
+                    title: 'Full Professor',
+                    institution: 'National Chengchi University',
+                    period: '2010 - 2020'
+                  },
+                  {
+                    title: 'Associate Professor',
+                    institution: 'National Chengchi University',
+                    period: '2000 - 2010'
+                  }
+                ].map((pos, idx) => (
+                  <div key={idx} className="p-3 bg-blue-50 rounded-lg border-l-2 border-blue-400">
+                    <p className="font-semibold text-gray-900 text-sm mb-1">{pos.title}</p>
+                    <p className="text-xs text-gray-700 mb-1">{pos.institution}</p>
+                    <p className="text-xs text-blue-600 font-medium">{pos.period}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Additional Information */}
+          <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-gray-50 rounded-lg border border-blue-200">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                  <Award className="w-5 h-5 text-blue-600" />
+                  榮譽與獎項 (Honors & Awards)
+                </h4>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>Research Excellence Award, National Chengchi University (2018)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>Fulbright Scholar, University of Wisconsin-Madison (2015)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>Distinguished Teaching Award (2012)</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                  <FileText className="w-5 h-5 text-blue-600" />
+                  專業活動 (Professional Activities)
+                </h4>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>Editor, Taiwanese Journal of Sociology (2015-Present)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>Board Member, Taiwan Education Panel Survey</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>Visiting Scholar, Utrecht University (2014)</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
