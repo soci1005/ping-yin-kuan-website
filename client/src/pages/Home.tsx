@@ -810,7 +810,7 @@ export default function Home() {
       <footer className="bg-blue-900 text-white py-8 mt-16">
         <div className="container mx-auto px-4 md:px-8 text-center">
           <p className="text-gray-300 mb-2">
-            © 2024 關秉寅 (Ping-Yin Kuan). All rights reserved.
+            © 2026 關秉寶 (Ping-Yin Kuan). All rights reserved.
           </p>
           <p className="text-sm text-gray-400">
             National Chengchi University | International College of Innovation
