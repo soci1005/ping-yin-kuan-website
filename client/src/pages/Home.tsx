@@ -435,9 +435,9 @@ export default function Home() {
           <h2 className="text-3xl font-serif font-bold text-blue-900 mb-8">
             履歷 (Curriculum Vitae)
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-1 gap-8">
             {/* Education */}
-            <div className="md:col-span-2">
+            <div>
               <h3 className="text-2xl font-serif font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-200">
                 學歷 (Education)
               </h3>
@@ -473,45 +473,144 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Experience Highlights */}
+            {/* Positions */}
             <div>
               <h3 className="text-2xl font-serif font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-200">
                 職位 (Positions)
               </h3>
-              <div className="space-y-4">
-                {[
-                  {
-                    title: '名譽教授 (Emeritus Professor)',
-                    institution: '國立政治大學亞太研究英語博士學位學程',
-                    period: '2022.02 - Present'
-                  },
-                  {
-                    title: '兼任特聘教授、國際合作策略長',
-                    institution: '國立政治大學國際創新學院',
-                    period: '2021.08 - Present'
-                  },
-                  {
-                    title: '副院長',
-                    institution: '國立政治大學社會科學學院',
-                    period: '2018.04 - 2020.01'
-                  },
-                  {
-                    title: '主任',
-                    institution: '國立政治大學亞太研究英語博士學位學程',
-                    period: '2017.04 - 2020.01'
-                  },
-                  {
-                    title: '教授',
-                    institution: '國立政治大學社會學系',
-                    period: '2001.08 - 2022.01'
-                  }
-                ].map((pos, idx) => (
-                  <div key={idx} className="p-3 bg-blue-50 rounded-lg border-l-2 border-blue-400">
-                    <p className="font-semibold text-gray-900 text-sm mb-1">{pos.title}</p>
-                    <p className="text-xs text-gray-700 mb-1">{pos.institution}</p>
-                    <p className="text-xs text-blue-600 font-medium">{pos.period}</p>
-                  </div>
-                ))}
+              
+              {/* NCCU Positions */}
+              <div className="mb-8">
+                <h4 className="text-lg font-semibold text-blue-900 mb-4 pl-3 border-l-4 border-blue-600">
+                  政治大學教學行政經歷
+                </h4>
+                <div className="space-y-3">
+                  {[
+                    {
+                      title: '名譽教授',
+                      institution: '國立政治大學亞太研究英語博士學位學程',
+                      period: '2022.02~迄今'
+                    },
+                    {
+                      title: '兼任特聘教授、國際合作策略長',
+                      institution: '國立政治大學國際創新學院',
+                      period: '2021.08~迄今'
+                    },
+                    {
+                      title: '兼任教授',
+                      institution: '國立政治大學亞太研究英語博士學位學程',
+                      period: '2021.02~2021.07'
+                    },
+                    {
+                      title: '副院長',
+                      institution: '國立政治大學社會科學學院',
+                      period: '2018.04~2020.01'
+                    },
+                    {
+                      title: '主任',
+                      institution: '國立政治大學亞太研究英語博士學位學程',
+                      period: '2017.04~2020.01'
+                    },
+                    {
+                      title: '合聘教授',
+                      institution: '國立政治大學亞太研究英語博士學位學程',
+                      period: '2016.08~2021.01'
+                    },
+                    {
+                      title: '書院長',
+                      institution: '國立政治大學政大書院計畫辦公室',
+                      period: '2016.04~2019.07'
+                    },
+                    {
+                      title: '主任',
+                      institution: '國立政治大學亞太研究英語碩士學位學程',
+                      period: '2010.08~2013.07'
+                    },
+                    {
+                      title: '主任',
+                      institution: '國立政治大學亞太研究英語博士學位學程',
+                      period: '2010.08~2013.02'
+                    },
+                    {
+                      title: '主任',
+                      institution: '國立政治大學社會科學學院學生事務辦公室',
+                      period: '2009.10~2010.08'
+                    },
+                    {
+                      title: '主任',
+                      institution: '國立政治大學社會學系',
+                      period: '2006.08~2008.07'
+                    },
+                    {
+                      title: '副教授、教授',
+                      institution: '國立政治大學社會學系',
+                      period: '2001.08~2022.01'
+                    }
+                  ].map((pos, idx) => (
+                    <div key={idx} className="p-3 bg-blue-50 rounded-lg border-l-2 border-blue-400 hover:shadow-md transition-shadow">
+                      <p className="font-semibold text-gray-900 text-sm mb-1">{pos.title}</p>
+                      <p className="text-xs text-gray-700 mb-1">{pos.institution}</p>
+                      <p className="text-xs text-blue-600 font-medium">{pos.period}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Other Positions */}
+              <div>
+                <h4 className="text-lg font-semibold text-blue-900 mb-4 pl-3 border-l-4 border-green-600">
+                  其他教學行政經歷
+                </h4>
+                <div className="space-y-3">
+                  {[
+                    {
+                      title: '兼任教授',
+                      institution: '東吳大學社會學系',
+                      period: '2022.02~2022.07'
+                    },
+                    {
+                      title: '兼任教授',
+                      institution: '國立臺灣師範大學教育學系',
+                      period: '2020.02~2021.07'
+                    },
+                    {
+                      title: 'Visiting Professor',
+                      institution: 'Department of Sociology, Utrecht University',
+                      period: '2020.02~2020.04'
+                    },
+                    {
+                      title: '兼任教授',
+                      institution: '國立臺灣師範大學教育學系',
+                      period: '2018.08~2019.01'
+                    },
+                    {
+                      title: 'Visiting Research Fellow',
+                      institution: 'Department of Sociology, University of Wisconsin-Madison',
+                      period: '2004.08~2005.01'
+                    },
+                    {
+                      title: '主任',
+                      institution: '天主教輔仁大學中國社會文化研究中心',
+                      period: '1996.04~2000.07'
+                    },
+                    {
+                      title: '副教授',
+                      institution: '天主教輔仁大學社會學系',
+                      period: '1993.08~2001.07'
+                    },
+                    {
+                      title: '兼任講師',
+                      institution: '天主教輔仁大學社會學系',
+                      period: '1986.08~1987.07'
+                    }
+                  ].map((pos, idx) => (
+                    <div key={idx} className="p-3 bg-green-50 rounded-lg border-l-2 border-green-400 hover:shadow-md transition-shadow">
+                      <p className="font-semibold text-gray-900 text-sm mb-1">{pos.title}</p>
+                      <p className="text-xs text-gray-700 mb-1">{pos.institution}</p>
+                      <p className="text-xs text-green-600 font-medium">{pos.period}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
