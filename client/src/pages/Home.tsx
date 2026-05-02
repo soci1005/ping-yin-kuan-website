@@ -32,7 +32,7 @@ export default function Home() {
               />
               <div>
                 <h1 className="text-5xl md:text-6xl font-serif font-bold text-white mb-4">
-                  關秉寶
+                  關秉寅
                 </h1>
                 <p className="text-xl text-gray-100 mb-2">
                   Ping-Yin Kuan
