@@ -203,32 +203,75 @@ export default function Home() {
               <div className="space-y-4">
                 {[
                   {
-                    title: 'Social Stratification and Educational Mobility in Taiwan',
-                    authors: 'Kuan, P.-Y., & Chen, M.-J.',
-                    journal: 'Taiwanese Journal of Sociology',
+                    title: '以反事實架構角度推估因果效應： 2000 年至 2023 年臺灣教育研究領域相關期刊論文之擇要回顧',
+                    authors: '關秉寅、彭思錦',
+                    journal: '中國統計學報',
+                    year: 2024,
+                    volume: '62(3): 222-262'
+                  },
+                  {
+                    title: '運用界限設置分析方法探究年齡—時期—世代之效應：以臺灣個人主觀社會地位長期變遷為例',
+                    authors: '彭思錦、關秉寅',
+                    journal: '調查研究—方法與應用',
                     year: 2023,
-                    type: '期刊論文'
+                    volume: '51: 161-204'
                   },
                   {
-                    title: 'Survey Research Methods in Contemporary Asia',
-                    authors: 'Kuan, P.-Y.',
-                    journal: 'Survey Research-Methods and Application',
-                    year: 2022,
-                    type: '期刊論文'
-                  },
-                  {
-                    title: 'Educational Reforms and Social Inequality',
-                    authors: 'Kuan, P.-Y., Wang, L., & Liu, S.',
-                    journal: 'Contemporary Educational Research Quarterly',
+                    title: 'Time Will Tell: Revisiting the Impact of College Expansion on Income and Occupational Prestige Mobility of Young Adults in Taiwan',
+                    authors: 'Kuan, Ping-Yin & Ssu-Chin Peng',
+                    journal: 'Higher Education Quarterly',
                     year: 2021,
-                    type: '期刊論文'
+                    volume: '75(3): 468-486'
                   },
                   {
-                    title: 'The Taiwan Education Panel Survey: Methodology and Findings',
-                    authors: 'Kuan, P.-Y.',
-                    journal: 'Bulletin of Educational Research',
-                    year: 2020,
-                    type: '期刊論文'
+                    title: "Graduates' Career Success Predicted by Mathematical and Affective Abilities, Effective Higher-Education Learning and Economic Contexts: A Bioecological Positivity to Success Model",
+                    authors: 'Chiu, Mei-Shiu, Weiyan Xiong & Ping-Yin Kuan',
+                    journal: 'Journal of Education and Work',
+                    year: 2021,
+                    volume: '34(3): 313-330'
+                  },
+                  {
+                    title: 'The Heterogeneous Effects of Participation in Shadow Education on Mental Health of High School Students in Taiwan',
+                    authors: 'Chen, I-Chien & Ping-Yin Kuan',
+                    journal: 'International Journal of Environmental Research and Public Health',
+                    year: 2021,
+                    volume: '18(3): 1222'
+                  },
+                  {
+                    title: '臺灣高教擴張對年輕世代薪資及職業的影響：反事實的分析',
+                    authors: '關秉寅、彭思錦、崔成秀',
+                    journal: '人文及社會科學集刊',
+                    year: 2019,
+                    volume: '31(4): 555-599'
+                  },
+                  {
+                    title: 'Effects of Cram Schooling on Academic Achievement and Mental Health of Junior High Students in Taiwan',
+                    authors: 'Kuan, Ping-Yin',
+                    journal: 'Chinese Sociological Review',
+                    year: 2018,
+                    volume: '50(4): 391-422',
+                    note: '(The winner of the 2012 CIES George Bereday Award)'
+                  },
+                  {
+                    title: '從學校到勞力市場：簡介「台灣教育長期追蹤資料庫」及其後續追蹤調查',
+                    authors: '關秉寅',
+                    journal: '中國統計學報',
+                    year: 2017,
+                    volume: '55(1): 24-40'
+                  },
+                  {
+                    title: '同儕補習風氣對國中生學習成就之影響',
+                    authors: '關秉寅',
+                    journal: '臺灣社會學刊',
+                    year: 2016,
+                    volume: '60: 99-133'
+                  },
+                  {
+                    title: '國中讀前段班有差嗎？能力分班對學習成就影響的反事實分析',
+                    authors: '關秉寅',
+                    journal: '教育研究集刊',
+                    year: 2016,
+                    volume: '62(1): 1-33'
                   }
                 ].map((pub, idx) => (
                   <div key={idx} className="p-4 bg-gray-50 rounded-lg border-l-4 border-blue-400 hover:shadow-md transition-shadow">
@@ -237,8 +280,9 @@ export default function Home() {
                         <p className="font-semibold text-gray-900 mb-1">{pub.title}</p>
                         <p className="text-sm text-gray-700 mb-2">{pub.authors}</p>
                         <p className="text-sm text-gray-600">
-                          <span className="font-medium">{pub.journal}</span> ({pub.year})
+                          <span className="font-medium">{pub.journal}</span> ({pub.year}), {pub.volume}
                         </p>
+                        {pub.note && <p className="text-xs text-blue-600 italic mt-2">{pub.note}</p>}
                       </div>
                       <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded-full whitespace-nowrap">
                         {pub.year}
@@ -257,25 +301,46 @@ export default function Home() {
               <div className="space-y-4">
                 {[
                   {
-                    title: 'Sociology of Education in East Asia',
-                    authors: 'Kuan, P.-Y. (Editor)',
-                    publisher: 'Academic Press',
-                    year: 2023,
-                    type: '編著'
+                    title: '第 5 章：補習數學有用嗎？一個「反事實」的分析',
+                    authors: '關秉寅、李敦義',
+                    publisher: '收錄於陳俊瑋編著《方興未艾：學科補習效益在臺灣的發現》',
+                    year: 2018,
+                    pages: '頁 93-121'
                   },
                   {
-                    title: 'Educational Stratification and Social Mobility',
-                    authors: 'Kuan, P.-Y.',
-                    publisher: "Chapter in 'Contemporary Issues in Asian Education'",
-                    year: 2022,
-                    type: '專章'
+                    title: '第 7 章：國中生數學補的愈久，數學成就愈好嗎？傾向分數配對法的分析',
+                    authors: '關秉寅、李敦義',
+                    publisher: '收錄於陳俊瑋編著《方興未艾：學科補習效益在臺灣的發現》',
+                    year: 2018,
+                    pages: '頁 147-167'
                   },
                   {
-                    title: 'Quantitative Research Methods for Social Scientists',
-                    authors: 'Kuan, P.-Y., & Wu, H.-C.',
-                    publisher: 'National Taiwan University Press',
-                    year: 2021,
-                    type: '著作'
+                    title: '第 11 章：同儕補習風氣對國中生學習成就之影響',
+                    authors: '關秉寅',
+                    publisher: '收錄於陳俊瑋編著《方興未艾：學科補習效益在臺灣的發現》',
+                    year: 2018,
+                    pages: '頁 213-232'
+                  },
+                  {
+                    title: 'Chapter 1: A Profile of Religion in Contemporary Taiwan',
+                    authors: 'Kuan, Ping-Yin',
+                    publisher: 'in Tsai, Yen-zen, ed., Religious Experience in Contemporary Taiwan and China. Taipei: Chengchi University Press',
+                    year: 2013,
+                    pages: 'pp. 17-40'
+                  },
+                  {
+                    title: 'Chapter 11: Becoming Religious? The Relationship between Change in Religious Affiliation and Religiosity in Taiwan',
+                    authors: 'Chao, Hsing-kuang & Ping-Yin Kuan',
+                    publisher: 'in Tsai, Yen-zen, ed., Religious Experience in Contemporary Taiwan and China. Taipei: Chengchi University Press',
+                    year: 2013,
+                    pages: 'pp. 213-232'
+                  },
+                  {
+                    title: '高教擴張、失業與主觀社會地位變遷',
+                    authors: '張峯彬、關秉寅',
+                    publisher: '收錄於謝雨生、傅仰止主編《臺灣的社會變遷 1985~2005：社會階層與勞動市場》',
+                    year: 2012,
+                    pages: '頁 63-92'
                   }
                 ].map((pub, idx) => (
                   <div key={idx} className="p-4 bg-gray-50 rounded-lg border-l-4 border-green-400 hover:shadow-md transition-shadow">
@@ -286,6 +351,7 @@ export default function Home() {
                         <p className="text-sm text-gray-600">
                           <span className="font-medium">{pub.publisher}</span> ({pub.year})
                         </p>
+                        <p className="text-xs text-gray-500 mt-1">{pub.pages}</p>
                       </div>
                       <span className="px-3 py-1 bg-green-100 text-green-800 text-xs font-semibold rounded-full whitespace-nowrap">
                         {pub.year}
@@ -296,26 +362,48 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Conference Papers */}
+            {/* Research Reports */}
             <div>
               <h3 className="text-2xl font-serif font-bold text-gray-800 mb-6 pb-3 border-b-2 border-blue-200">
-                會議論文 (Conference Papers)
+                研究報告 (Research Reports)
               </h3>
               <div className="space-y-4">
                 {[
                   {
-                    title: 'Data-Driven Approaches to Understanding Educational Inequality',
-                    authors: 'Kuan, P.-Y.',
-                    conference: 'International Symposium on Education and Social Change',
-                    year: 2023,
-                    type: '會議論文'
+                    title: '「臺灣教育長期追蹤資料庫」後續調查：核心樣本 2019 年電訪追蹤調查',
+                    authors: '關秉寅',
+                    year: 2020,
+                    grant: 'MOST-108-2420-H-001 -192-SSS'
                   },
                   {
-                    title: 'Longitudinal Studies in Educational Research',
-                    authors: 'Kuan, P.-Y., & Lee, J.-M.',
-                    conference: 'Asian Sociological Association Conference',
-                    year: 2022,
-                    type: '會議論文'
+                    title: '台灣社會變遷基本調查計畫第七期第五次調查計畫執行報告',
+                    authors: '傅仰止、關秉寅、吳齊殷、廖培珊、謝淑惠',
+                    year: 2020,
+                    grant: 'MOST-107-2420-H-001 -003 -SS2'
+                  },
+                  {
+                    title: '台灣國高中生補習持續時間及變動軌跡類型對學習成就與心理健康之影響',
+                    authors: '關秉寅',
+                    year: 2020,
+                    grant: 'MOST-107-2410-H-004 -068'
+                  },
+                  {
+                    title: '台灣國中生補習對心理健康影響之因果分析',
+                    authors: '關秉寅',
+                    year: 2018,
+                    grant: 'MOST-106-2410-H-004 -123'
+                  },
+                  {
+                    title: '「臺灣教育長期追蹤資料庫」後續調查：教育與勞力市場的連結 2013-2017',
+                    authors: '關秉寅',
+                    year: 2017,
+                    grant: 'MOST-102-2420-H-004-026-SS4'
+                  },
+                  {
+                    title: '台灣高教擴張對年輕世代職業地位及薪資的影響：反事實的分析',
+                    authors: '關秉寅',
+                    year: 2016,
+                    grant: 'MOST-104-2410-H-004-109'
                   }
                 ].map((pub, idx) => (
                   <div key={idx} className="p-4 bg-gray-50 rounded-lg border-l-4 border-purple-400 hover:shadow-md transition-shadow">
@@ -323,8 +411,8 @@ export default function Home() {
                       <div className="flex-1">
                         <p className="font-semibold text-gray-900 mb-1">{pub.title}</p>
                         <p className="text-sm text-gray-700 mb-2">{pub.authors}</p>
-                        <p className="text-sm text-gray-600">
-                          <span className="font-medium">{pub.conference}</span> ({pub.year})
+                        <p className="text-xs text-gray-600">
+                          Grant: <span className="font-mono">{pub.grant}</span>
                         </p>
                       </div>
                       <span className="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-semibold rounded-full whitespace-nowrap">
@@ -430,15 +518,15 @@ export default function Home() {
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
+                    <span>The winner of the 2012 CIES George Bereday Award (2012)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
                     <span>Research Excellence Award, National Chengchi University (2018)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
                     <span>Fulbright Scholar, University of Wisconsin-Madison (2015)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-blue-600 mt-1">•</span>
-                    <span>Distinguished Teaching Award (2012)</span>
                   </li>
                 </ul>
               </div>
