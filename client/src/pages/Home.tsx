@@ -708,7 +708,15 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
-                    <span>2016.01~迄今 當代教育研究 編輯委員</span>
+                    <span>2016.01~2024.07 當代教育研究 編輯委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2023 ~ 迄今 歐美研究季刊 編輯委員</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span>2024 ~ 2026 George Bereday Award Selection Committee, Comparative and International Education Society (CIES)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-600 mt-1">•</span>
