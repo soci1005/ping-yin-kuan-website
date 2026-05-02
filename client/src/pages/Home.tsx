@@ -47,7 +47,7 @@ export default function Home() {
           <h2 className="text-3xl font-serif font-bold text-blue-900 mb-6">
             聯絡資訊
           </h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             <div className="flex items-start gap-3">
               <Mail className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
               <div>
@@ -71,6 +71,15 @@ export default function Home() {
                 <p className="text-sm text-gray-600 mb-1">ORCID ID</p>
                 <a href="https://orcid.org/0000-0001-9516-4910" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                   0000-0001-9516-4910
+                </a>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <ExternalLink className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
+              <div>
+                <p className="text-sm text-gray-600 mb-1">政大學術集成</p>
+                <a href="https://ah.lib.nccu.edu.tw/scholar?id=271&locale=zh_TW" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+                  學術著作與檔案
                 </a>
               </div>
             </div>
