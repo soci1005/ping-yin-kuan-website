@@ -9,7 +9,7 @@ import { Mail, ExternalLink, BookOpen, Users, Database, FileText, Award, Downloa
  */
 
 export default function Home() {
-  const heroImageUrl = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663620222015/Lf6ttBa3x9uuuPee5ExvaJ/hero-academic-updated-bxbRQnzNutHjmXpmtqh5UZ.webp';
+  const heroImageUrl = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663620222015/Lf6ttBa3x9uuuPee5ExvaJ/hero-academic-final-F2tiJcaCeaTyK5fyo6NzFc.webp';
   const patternImageUrl = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663620222015/Lf6ttBa3x9uuuPee5ExvaJ/academic-pattern-93azfvaiwoV7kJ5mqdR8Jb.webp';
 
   return (
@@ -38,8 +38,7 @@ export default function Home() {
                   Ping-Yin Kuan
                 </p>
                 <p className="text-lg text-gray-200">
-                  Distinguished Professor (Adjunct), International College of Innovation<br />
-                  National Chengchi University
+                  Distinguished Professor (Adjunct), International College of Innovation, National Chengchi University
                 </p>
               </div>
             </div>
