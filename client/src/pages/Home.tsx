@@ -47,7 +47,7 @@ export default function Home() {
           <h2 className="text-3xl font-serif font-bold text-blue-900 mb-6">
             聯絡資訊
           </h2>
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-5 gap-6">
             <div className="flex items-start gap-3">
               <Mail className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
               <div>
@@ -89,6 +89,15 @@ export default function Home() {
                 <p className="text-sm text-gray-600 mb-1">Google Scholar</p>
                 <a href="https://scholar.google.com/citations?user=pxY77-cAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
                   學術檔案
+                </a>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <ExternalLink className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
+              <div>
+                <p className="text-sm text-gray-600 mb-1">ResearchGate</p>
+                <a href="https://www.researchgate.net/profile/Ping-Yin-Kuan" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+                  研究檔案
                 </a>
               </div>
             </div>
