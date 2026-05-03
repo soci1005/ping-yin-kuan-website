@@ -1,5 +1,4 @@
-import { Mail, ExternalLink, Award, FileText } from "lucide-react";
-import { Link } from "wouter";
+import { Mail, ExternalLink, BookOpen, Users, Database } from "lucide-react";
 
 /**
  * 關秉寅教授個人學術網站 - 首頁
@@ -11,6 +10,7 @@ import { Link } from "wouter";
 
 export default function Home() {
   const heroImageUrl = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663620222015/Lf6ttBa3x9uuuPee5ExvaJ/hero-academic-final-F2tiJcaCeaTyK5fyo6NzFc.webp';
+  const patternImageUrl = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663620222015/Lf6ttBa3x9uuuPee5ExvaJ/academic-pattern-93azfvaiwoV7kJ5mqdR8Jb.webp';
 
   return (
     <div className="min-h-screen bg-white">
@@ -109,54 +109,106 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="mt-6 pt-6 border-t border-gray-200">
+            <p className="text-sm text-gray-700">
+              <span className="font-semibold">最高學歷：</span> 美國維吉尼亞大學社會學博士 (Ph.D. Sociology, University of Virginia, USA)
+            </p>
+          </div>
         </section>
 
-        {/* Research Fields */}
+        {/* Divider */}
+        <div className="mb-16">
+          <img src={patternImageUrl} alt="divider" className="w-full h-20 object-cover opacity-50" />
+        </div>
+
+        {/* Education & Positions */}
         <section className="mb-16">
-          <h2 className="text-3xl font-serif font-bold text-blue-900 mb-6">
-            研究領域 (Research Fields)
+          <h2 className="text-3xl font-serif font-bold text-blue-900 mb-8">
+            履歷
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Education */}
+            <div>
+              <h3 className="text-xl font-serif font-bold text-gray-800 mb-4 pb-2 border-b-2 border-blue-200">
+                學歷 (Education)
+              </h3>
+              <div className="space-y-4">
+                <div className="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+                  <p className="font-semibold text-gray-900">Ph.D. Sociology</p>
+                  <p className="text-sm text-gray-700">University of Virginia, USA</p>
+                  <p className="text-xs text-gray-600">1993</p>
+                </div>
+                <div className="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+                  <p className="font-semibold text-gray-900">M.A. Sociology</p>
+                  <p className="text-sm text-gray-700">Virginia Commonwealth University, USA</p>
+                  <p className="text-xs text-gray-600">1982</p>
+                </div>
+                <div className="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+                  <p className="font-semibold text-gray-900">B.A. Sociology</p>
+                  <p className="text-sm text-gray-700">Fu Jen Catholic University, Taiwan</p>
+                  <p className="text-xs text-gray-600">1977</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Current Positions */}
+            <div>
+              <h3 className="text-xl font-serif font-bold text-gray-800 mb-4 pb-2 border-b-2 border-blue-200">
+                現職 (Current Positions)
+              </h3>
+              <div className="space-y-4">
+                <div className="p-4 bg-green-50 rounded-lg border-l-4 border-green-400">
+                  <p className="font-semibold text-gray-900">名譽教授</p>
+                  <p className="text-sm text-gray-700">亞太研究英語博士學位學程</p>
+                  <p className="text-xs text-green-600 font-medium">2022.02 ~ 迄今</p>
+                </div>
+                <div className="p-4 bg-green-50 rounded-lg border-l-4 border-green-400">
+                  <p className="font-semibold text-gray-900">兼任特聘教授、國際合作策略長</p>
+                  <p className="text-sm text-gray-700">國際創新學院</p>
+                  <p className="text-xs text-green-600 font-medium">2021.08 ~ 迄今</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Research Interests */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-serif font-bold text-blue-900 mb-8">
+            研究領域
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: "教育社會學", en: "Sociology of Education" },
-              { title: "社會階層與不平等", en: "Social Stratification and Inequality" },
-              { title: "調查研究方法", en: "Survey Research Methods" }
-            ].map((field, idx) => (
-              <div key={idx} className="p-6 bg-blue-50 rounded-lg border border-blue-200 hover:shadow-md transition-shadow">
-                <h3 className="font-semibold text-gray-900 mb-2">{field.title}</h3>
-                <p className="text-sm text-gray-600">{field.en}</p>
+              { title: '教育社會學', desc: 'Sociology of Education', icon: BookOpen },
+              { title: '社會階層', desc: 'Social Stratification', icon: Users },
+              { title: '調查研究方法', desc: 'Survey Research Methods', icon: Database }
+            ].map((item, idx) => (
+              <div
+                key={idx}
+                className="p-6 bg-white border-2 border-blue-100 rounded-lg hover:shadow-lg hover:border-blue-300 transition-all duration-300 hover:translate-y-[-4px]"
+              >
+                <item.icon className="w-8 h-8 text-blue-600 mb-3" />
+                <h3 className="text-xl font-serif font-bold text-blue-900 mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  {item.desc}
+                </p>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Quick Navigation */}
-        <section className="mb-16 bg-gradient-to-r from-blue-50 to-gray-50 p-8 rounded-lg border border-blue-200">
-          <h2 className="text-3xl font-serif font-bold text-blue-900 mb-6">
-            瀏覽更多內容
-          </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/publications" className="p-6 bg-white rounded-lg border border-gray-200 hover:shadow-lg hover:border-blue-400 transition-all cursor-pointer">
-              <FileText className="w-8 h-8 text-blue-600 mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">學術著作</h3>
-              <p className="text-sm text-gray-600">期刊論文、著作與專章、研究報告</p>
-            </Link>
-            <Link href="/cv" className="p-6 bg-white rounded-lg border border-gray-200 hover:shadow-lg hover:border-blue-400 transition-all cursor-pointer">
-              <Award className="w-8 h-8 text-blue-600 mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">履歷</h3>
-              <p className="text-sm text-gray-600">學歷、職位、主要機構連結</p>
-            </Link>
-            <Link href="/academic-activities" className="p-6 bg-white rounded-lg border border-gray-200 hover:shadow-lg hover:border-blue-400 transition-all cursor-pointer">
-              <FileText className="w-8 h-8 text-blue-600 mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">學術活動</h3>
-              <p className="text-sm text-gray-600">榮譽與獎項、主要學術活動</p>
-            </Link>
-          </div>
-        </section>
-
         {/* Footer */}
-        <footer className="mt-16 pt-8 border-t border-gray-200 text-center text-sm text-gray-600">
-          <p>© 2026 Ping-Yin Kuan. All rights reserved.</p>
+        <footer className="bg-blue-900 text-white py-8 mt-16">
+          <div className="container mx-auto px-4 md:px-8 text-center">
+            <p className="text-gray-300 mb-2">
+              © 2026 關秉寅 (Ping-Yin Kuan). All rights reserved.
+            </p>
+            <p className="text-sm text-gray-400">
+              National Chengchi University | International College of Innovation
+            </p>
+          </div>
         </footer>
       </div>
     </div>
