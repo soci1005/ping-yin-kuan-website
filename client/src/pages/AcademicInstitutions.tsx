@@ -22,9 +22,7 @@ export default function AcademicInstitutions() {
     '教育研究集刊 (Bulletin of Educational Research) - 編輯委員 (2006-2014)',
     '調查研究─方法與應用 (Survey Research-Methods and Application) - 編輯委員 (2010-2013)',
     '臺灣教育評論月刊 (Taiwan Education Review) - 編輯委員 (2016-2017)',
-    '歐美研究季刊 (American and European Studies Quarterly) - 編輯委員 (2023 - Present)',
-    '台灣社會學會 (Taiwan Sociological Association) - 理事 (2002-2004)',
-    '台灣社會學會 (Taiwan Sociological Association) - 秘書長 (2000-2002)'
+    '歐美研究季刊 (American and European Studies Quarterly) - 編輯委員 (2023 - Present)'
   ];
 
   return (
