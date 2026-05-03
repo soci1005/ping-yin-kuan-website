@@ -1,8 +1,14 @@
 import { BookOpen } from "lucide-react";
 
+interface Course {
+  name: string;
+  syllabusLink?: string;
+  lectureLink?: string;
+}
+
 export default function Courses() {
-  const undergraduateCourses = [
-    { name: '社會學動動腦 (Thinking Sociologically)' },
+  const undergraduateCourses: Course[] = [
+    { name: '社會學動動腦 (Thinking Sociologically)', lectureLink: 'https://drive.google.com/file/d/1NxI-RMLsi-UZ8DdrL81WKhLuLDqX3zLz/view?usp=sharing' },
     { name: '社會統計 (Social Statistics)' },
     { name: 'Statistics I' },
     { name: 'Statistics II' },
@@ -10,7 +16,7 @@ export default function Courses() {
     { name: '教育社會學 (Sociology of Education)' }
   ];
 
-  const graduateCourses = [
+  const graduateCourses: Course[] = [
     { name: '高等社會統計 (Advanced Social Statistics)' },
     { name: '教育社會學專題 (Seminar in Sociology of Education)' },
     { name: '社會階層與教育 (Social Stratification and Education)' },
@@ -52,10 +58,18 @@ export default function Courses() {
                   <tr key={idx} className="border-b border-gray-200 hover:bg-gray-50">
                     <td className="px-4 py-3 text-gray-800">{course.name}</td>
                     <td className="px-4 py-3">
-                      <a href="#" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                      {course.syllabusLink ? (
+                        <a href={course.syllabusLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                      ) : (
+                        <span className="text-gray-400">連結 (Link)</span>
+                      )}
                     </td>
                     <td className="px-4 py-3">
-                      <a href="#" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                      {course.lectureLink ? (
+                        <a href={course.lectureLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                      ) : (
+                        <span className="text-gray-400">連結 (Link)</span>
+                      )}
                     </td>
                   </tr>
                 ))}
@@ -82,7 +96,11 @@ export default function Courses() {
                   <tr key={idx} className="border-b border-gray-200 hover:bg-gray-50">
                     <td className="px-4 py-3 text-gray-800">{course.name}</td>
                     <td className="px-4 py-3">
-                      <a href="#" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                      {course.syllabusLink ? (
+                        <a href={course.syllabusLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                      ) : (
+                        <span className="text-gray-400">連結 (Link)</span>
+                      )}
                     </td>
                   </tr>
                 ))}
