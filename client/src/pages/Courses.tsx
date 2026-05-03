@@ -9,11 +9,11 @@ interface Course {
 export default function Courses() {
   const undergraduateCourses: Course[] = [
     { name: '社會學動動腦 (Thinking Sociologically)', lectureLink: 'https://drive.google.com/file/d/1NxI-RMLsi-UZ8DdrL81WKhLuLDqX3zLz/view?usp=sharing' },
-    { name: '社會統計 (Social Statistics)' },
-    { name: 'Statistics I' },
-    { name: 'Statistics II' },
-    { name: '社會研究方法 (Social Research Methods)' },
-    { name: '教育社會學 (Sociology of Education)' }
+    { name: '社會統計 (Social Statistics)', lectureLink: 'https://drive.google.com/file/d/1cKY5SwnAmgbodnoupuspuX5oxZvxJG0b/view?usp=sharing' },
+    { name: 'Statistics I', syllabusLink: 'https://drive.google.com/file/d/1XKRtbykEHNiY5MJ0bn_g_1zUX2D2bOBA/view?usp=sharing' },
+    { name: 'Statistics II', syllabusLink: 'https://drive.google.com/file/d/1Ab0viiNuXZItT0yJ-YosmLiIoVZjKhIq/view?usp=sharing' },
+    { name: '社會研究方法 (Social Research Methods)', lectureLink: 'https://drive.google.com/file/d/1dAC8JT7o4MapFk5VWC1NoY78qgEq0MX1/view?usp=sharing' },
+    { name: '教育社會學 (Sociology of Education)', syllabusLink: 'https://drive.google.com/file/d/1aH1xHcMZqwce1BgiBu3Lzcehx62mz-CS/view?usp=sharing', lectureLink: 'https://drive.google.com/file/d/1FNPAMCqKsYrqiZWrdvma1TT0HwQFDuip/view?usp=sharing' }
   ];
 
   const graduateCourses: Course[] = [
