@@ -167,7 +167,7 @@ export default function Home() {
                 <div className="p-4 bg-green-50 rounded-lg border-l-4 border-green-400">
                   <p className="font-semibold text-gray-900">兼任特聘教授、國際合作策略長</p>
                   <p className="text-sm text-gray-600">Adjunct Distinguished Professor, Chair, International Cooperation Advisory Committee</p>
-                  <p className="text-sm text-gray-700">國際創新學院</p>
+                  <p className="text-sm text-gray-700">創新國際學院</p>
                   <p className="text-sm text-gray-600">International College of Innovation</p>
                   <p className="text-xs text-green-600 font-medium">2021.08 ~ 迄今</p>
                 </div>

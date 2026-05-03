@@ -10,7 +10,7 @@ export default function CV() {
   const positions = {
     nccu: [
       { title: "名譽教授", department: "亞太研究英語博士學位學程", period: "2022.02 ~ 迄今" },
-      { title: "兼任特聘教授、國際合作策略長", department: "國際創新學院", period: "2021.08 ~ 迄今" },
+      { title: "兼任特聘教授、國際合作策略長", department: "創新國際學院", period: "2021.08 ~ 迄今" },
       { title: "兼任教授", department: "亞太研究英語博士學位學程", period: "2021.02 ~ 2021.07" },
       { title: "副院長", department: "社會科學學院", period: "2018.04 ~ 2020.01" },
       { title: "主任", department: "亞太研究英語博士學位學程", period: "2017.04 ~ 2020.01" },
