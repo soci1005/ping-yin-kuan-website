@@ -1,4 +1,4 @@
-import { BookOpen } from "lucide-react";
+import { BookOpen, FileText, Cloud } from "lucide-react";
 
 interface Course {
   name: string;
@@ -24,6 +24,25 @@ export default function Courses() {
     { name: 'Introduction to Statistical Analysis', syllabusLink: 'https://drive.google.com/file/d/1tC41-s6WBQ6vSdQHU8nmuCxCs3k8Rxys/view?usp=sharing' },
     { name: 'Intermediate Statistical Methods', syllabusLink: 'https://drive.google.com/file/d/1MUoHbqDHeCRSEsF4dYZ9KXbm9s4AGH5q/view?usp=sharing' }
   ];
+
+  const LinkButton = ({ href, label, icon: Icon }: { href: string; label: string; icon: React.ComponentType<{ className: string }> }) => (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 hover:bg-blue-50 px-3 py-2 rounded-md transition-all duration-200 group"
+    >
+      <Icon className="w-4 h-4 group-hover:scale-110 transition-transform" />
+      <span className="underline">{label}</span>
+    </a>
+  );
+
+  const EmptyLink = ({ icon: Icon, label }: { icon: React.ComponentType<{ className: string }>; label: string }) => (
+    <span className="text-gray-400 inline-flex items-center gap-2">
+      <Icon className="w-4 h-4" />
+      {label}
+    </span>
+  );
 
   return (
     <div className="min-h-screen bg-white">
@@ -60,16 +79,16 @@ export default function Courses() {
                     <td className="px-4 py-3 text-gray-800">{course.name}</td>
                     <td className="px-4 py-3">
                       {course.syllabusLink ? (
-                        <a href={course.syllabusLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                        <LinkButton href={course.syllabusLink} label="連結 (Link)" icon={FileText} />
                       ) : (
-                        <span className="text-gray-400">連結 (Link)</span>
+                        <EmptyLink icon={FileText} label="連結 (Link)" />
                       )}
                     </td>
                     <td className="px-4 py-3">
                       {course.lectureLink ? (
-                        <a href={course.lectureLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                        <LinkButton href={course.lectureLink} label="連結 (Link)" icon={Cloud} />
                       ) : (
-                        <span className="text-gray-400">連結 (Link)</span>
+                        <EmptyLink icon={Cloud} label="連結 (Link)" />
                       )}
                     </td>
                   </tr>
@@ -99,16 +118,16 @@ export default function Courses() {
                     <td className="px-4 py-3 text-gray-800">{course.name}</td>
                     <td className="px-4 py-3">
                       {course.syllabusLink ? (
-                        <a href={course.syllabusLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                        <LinkButton href={course.syllabusLink} label="連結 (Link)" icon={FileText} />
                       ) : (
-                        <span className="text-gray-400">連結 (Link)</span>
+                        <EmptyLink icon={FileText} label="連結 (Link)" />
                       )}
                     </td>
                     <td className="px-4 py-3">
                       {course.lectureLink ? (
-                        <a href={course.lectureLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                        <LinkButton href={course.lectureLink} label="連結 (Link)" icon={Cloud} />
                       ) : (
-                        <span className="text-gray-400">連結 (Link)</span>
+                        <EmptyLink icon={Cloud} label="連結 (Link)" />
                       )}
                     </td>
                   </tr>
