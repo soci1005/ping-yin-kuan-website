@@ -34,9 +34,9 @@ export default function AcademicInstitutions() {
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex items-center gap-4 mb-4">
             <Building2 className="w-8 h-8" />
-            <h1 className="text-4xl font-serif font-bold">學術機構及期刊編輯</h1>
+            <h1 className="text-4xl font-serif font-bold">學術連結</h1>
           </div>
-          <p className="text-lg text-blue-100">Academic Institutions and Editorial Positions</p>
+          <p className="text-lg text-blue-100">Academic Links and Affiliations</p>
         </div>
       </section>
 
