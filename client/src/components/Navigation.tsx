@@ -7,6 +7,7 @@ export default function Navigation() {
 
   const navItems = [
     { label: "首頁", href: "/" },
+    { label: "學術著作", href: "/publications" },
     { label: "教授課程", href: "/courses" },
     { label: "學術機構及期刊編輯", href: "/academic-institutions" },
   ];
