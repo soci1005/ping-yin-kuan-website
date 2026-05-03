@@ -160,14 +160,14 @@ export default function Home() {
                 <div className="p-4 bg-green-50 rounded-lg border-l-4 border-green-400">
                   <p className="font-semibold text-gray-900">名譽教授</p>
                   <p className="text-sm text-gray-600">Professor Emeritus</p>
-                  <p className="text-sm text-gray-700">亞太研究英語博士學位學程</p>
+                  <p className="text-sm text-gray-700"><a href="https://idas.nccu.edu.tw/eng/PageFront" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">亞太研究英語博士學位學程</a></p>
                   <p className="text-sm text-gray-600">International Doctoral Program in Asia-Pacific Studies</p>
                   <p className="text-xs text-green-600 font-medium">2022.02 ~ 迄今</p>
                 </div>
                 <div className="p-4 bg-green-50 rounded-lg border-l-4 border-green-400">
                   <p className="font-semibold text-gray-900">兼任特聘教授、國際合作策略長</p>
                   <p className="text-sm text-gray-600">Adjunct Distinguished Professor; Chair, International Cooperation Advisory Committee</p>
-                  <p className="text-sm text-gray-700">創新國際學院</p>
+                  <p className="text-sm text-gray-700"><a href="https://ici.nccu.edu.tw/eng/PageFront" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">創新國際學院</a></p>
                   <p className="text-sm text-gray-600">International College of Innovation</p>
                   <p className="text-xs text-green-600 font-medium">2021.08 ~ 迄今</p>
                 </div>
