@@ -18,7 +18,7 @@ export default function Courses() {
 
   const graduateCourses: Course[] = [
     { name: '高等社會統計 (Advanced Social Statistics)' },
-    { name: '教育社會學專題 (Seminar in Sociology of Education)' },
+    { name: '教育社會學專題 (Seminar in Sociology of Education)', syllabusLink: 'https://drive.google.com/file/d/1_EHQaa7U4XNp9rpN_Pb1JiP-y34rj3Os/view?usp=sharing' },
     { name: '社會階層與教育 (Social Stratification and Education)' },
     { name: '調查研究方法 (Survey Research Methods)' },
     { name: '社會科學研究方法 (Research Methods in Social Sciences)' }
