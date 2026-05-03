@@ -17,11 +17,12 @@ export default function Courses() {
   ];
 
   const graduateCourses: Course[] = [
-    { name: '高等社會統計 (Advanced Social Statistics)' },
-    { name: '教育社會學專題 (Seminar in Sociology of Education)', syllabusLink: 'https://drive.google.com/file/d/1_EHQaa7U4XNp9rpN_Pb1JiP-y34rj3Os/view?usp=sharing' },
-    { name: '社會階層與教育 (Social Stratification and Education)' },
-    { name: '調查研究方法 (Survey Research Methods)' },
-    { name: '社會科學研究方法 (Research Methods in Social Sciences)' }
+    { name: '教育社會學：資料庫專題研究 (Sociology of Education: Seminar on Research Databases)', syllabusLink: 'https://drive.google.com/file/d/1_EHQaa7U4XNp9rpN_Pb1JiP-y34rj3Os/view?usp=sharing' },
+    { name: '教育改革的社會學 (Studies in Sociology of Educational Reforms)', syllabusLink: 'https://drive.google.com/file/d/1XhBj4ZRgjC27-PfFeZbJaQgkhn1D0Bq_/view?usp=sharing' },
+    { name: '教育社會學 (Sociology of Education)', syllabusLink: 'https://drive.google.com/file/d/1CvO74IHXExIMgG7nMYqDs8gpIm2OHwCA/view?usp=sharing' },
+    { name: '高等量化研究（因果推論） (Advanced Quantitative Research - Causal Inference)', lectureLink: 'https://drive.google.com/file/d/1GsCTEipmvkrapLTbNTORxkIifSZSK0EL/view?usp=sharing' },
+    { name: 'Introduction to Statistical Analysis', syllabusLink: 'https://drive.google.com/file/d/1tC41-s6WBQ6vSdQHU8nmuCxCs3k8Rxys/view?usp=sharing' },
+    { name: 'Intermediate Statistical Methods', syllabusLink: 'https://drive.google.com/file/d/1MUoHbqDHeCRSEsF4dYZ9KXbm9s4AGH5q/view?usp=sharing' }
   ];
 
   return (
@@ -89,6 +90,7 @@ export default function Courses() {
                 <tr className="bg-blue-50 border-b-2 border-blue-200">
                   <th className="px-4 py-3 text-left font-semibold text-blue-900">課程名稱 (Course Title)</th>
                   <th className="px-4 py-3 text-left font-semibold text-blue-900">課程大綱 (Syllabus)</th>
+                  <th className="px-4 py-3 text-left font-semibold text-blue-900">講義 (Lecture Notes)</th>
                 </tr>
               </thead>
               <tbody>
@@ -98,6 +100,13 @@ export default function Courses() {
                     <td className="px-4 py-3">
                       {course.syllabusLink ? (
                         <a href={course.syllabusLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
+                      ) : (
+                        <span className="text-gray-400">連結 (Link)</span>
+                      )}
+                    </td>
+                    <td className="px-4 py-3">
+                      {course.lectureLink ? (
+                        <a href={course.lectureLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">連結 (Link)</a>
                       ) : (
                         <span className="text-gray-400">連結 (Link)</span>
                       )}
