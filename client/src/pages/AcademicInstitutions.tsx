@@ -64,7 +64,7 @@ export default function AcademicInstitutions() {
           <div>
             <h2 className="text-3xl font-serif font-bold text-blue-900 mb-6 flex items-center gap-2">
               <BookMarked className="w-6 h-6" />
-              編輯與期刊
+              參與期刊編輯
             </h2>
             <p className="text-gray-600 mb-6">(Editorial & Journals)</p>
             <ul className="space-y-3">
