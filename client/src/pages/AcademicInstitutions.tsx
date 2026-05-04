@@ -16,7 +16,7 @@ export default function AcademicInstitutions() {
   ];
 
   const journals = [
-    '當代教育研究 (Contemporary Educational Research) - 編輯委員 (2016 - Present)',
+    '當代教育研究 (Contemporary Educational Research) - 編輯委員 (2016 - 2024)',
     '臺灣社會學刊 (Taiwanese Journal of Sociology) - 編輯委員 (2018-2020)',
     '臺灣社會學 (Taiwanese Sociology) - 編輯委員 (2013-2015)',
     '教育研究集刊 (Bulletin of Educational Research) - 編輯委員 (2006-2014)',
