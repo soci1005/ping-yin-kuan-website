@@ -139,7 +139,7 @@ export default function Publications() {
       year: 2011,
       volume: "55(3)",
       pages: "342-368",
-      note: "(The winner of the 2012 CIES George Bereday Award; the best article published in the Comparative Education Review in 2011)"
+      note: "(The winner of the CIES George Bereday Award for the best article published in the Comparative Education Review in 2011)"
     },
     {
       title: "生命壓力事件與個人宗教性之間係的探討",
