@@ -37,9 +37,10 @@ export default function Home() {
                 <p className="text-xl text-gray-100 mb-2">
                   Ping-Yin Kuan
                 </p>
-                <p className="text-lg text-gray-200">
-                  Professor Emeritus, College of Social Sciences<br />
-                  Distinguished Professor (Adjunct), International College of Innovation, National Chengchi University
+                <p className="text-lg text-gray-200 leading-relaxed">
+                  Professor Emeritus, College of Social Sciences &<br />
+                  Distinguished Professor (Adjunct), International College of Innovation<br />
+                  National Chengchi University
                 </p>
               </div>
             </div>
