@@ -9,7 +9,7 @@ export default function Navigation() {
     { label: "首頁", labelEn: "Homepage", href: "/" },
     { label: "學術著作", labelEn: "Publications", href: "/publications" },
     { label: "教授課程", labelEn: "Courses", href: "/courses" },
-    { label: "學術連結", labelEn: "Academic Links", href: "/academic-institutions" },
+    { label: "學術連結", labelEn: "Academic Affiliations", href: "/academic-institutions" },
   ];
 
   return (
