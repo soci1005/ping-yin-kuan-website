@@ -6,10 +6,10 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: "首頁", href: "/" },
-    { label: "學術著作", href: "/publications" },
-    { label: "教授課程", href: "/courses" },
-    { label: "學術連結", href: "/academic-institutions" },
+    { label: "首頁", labelEn: "Homepage", href: "/" },
+    { label: "學術著作", labelEn: "Publications", href: "/publications" },
+    { label: "教授課程", labelEn: "Courses", href: "/courses" },
+    { label: "學術連結", labelEn: "Academic Links", href: "/academic-institutions" },
   ];
 
   return (
@@ -26,9 +26,10 @@ export default function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors flex flex-col items-center"
               >
-                {item.label}
+                <span>{item.label}</span>
+                <span className="text-xs text-gray-500 font-normal">{item.labelEn}</span>
               </Link>
             ))}
           </div>
@@ -56,7 +57,8 @@ export default function Navigation() {
                 className="block px-4 py-2 text-gray-700 hover:bg-blue-50 rounded-lg transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                {item.label}
+                <span className="font-medium">{item.label}</span>
+                <span className="text-xs text-gray-500 font-normal">{item.labelEn}</span>
               </Link>
             ))}
           </div>
