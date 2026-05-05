@@ -26,7 +26,7 @@ export default function Home() {
           <div className="container mx-auto px-4 md:px-8">
             <div className="max-w-2xl flex items-center gap-8">
               <img
-                src="/manus-storage/profile-photo-cleaned_d0f52010.png"
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663620222015/DGNHkiALpCnIdxrU.png"
                 alt="Professor Ping-Yin Kuan"
                 className="w-32 h-32 rounded-full border-4 border-white shadow-lg flex-shrink-0 object-cover"
               />
