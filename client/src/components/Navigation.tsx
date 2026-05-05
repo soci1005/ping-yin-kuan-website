@@ -6,10 +6,10 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: "首頁", labelEn: "Homepage", href: "/" },
-    { label: "學術著作", labelEn: "Publications", href: "/publications" },
-    { label: "教授課程", labelEn: "Courses", href: "/courses" },
-    { label: "學術連結", labelEn: "Academic Affiliations", href: "/academic-institutions" },
+    { label: "首頁", labelEn: "Homepage", href: "" },
+    { label: "學術著作", labelEn: "Publications", href: "publications" },
+    { label: "教授課程", labelEn: "Courses", href: "courses" },
+    { label: "學術連結", labelEn: "Academic Affiliations", href: "academic-institutions" },
   ];
 
   return (
