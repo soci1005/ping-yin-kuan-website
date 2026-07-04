@@ -9,7 +9,7 @@ interface Course {
 export default function Courses() {
   const undergraduateCourses: Course[] = [
     { name: '社會學動動腦 (Thinking Sociologically)', lectureLink: 'https://drive.google.com/file/d/1NxI-RMLsi-UZ8DdrL81WKhLuLDqX3zLz/view?usp=sharing' },
-    { name: '社會統計 (Social Statistics)', syllabusLink: 'https://docs.google.com/document/d/1mIxHCrlEmHpzthAqNG2K35dNBQBRcEh1/edit?usp=drive_link&ouid=109490289094481032547&rtpof=true&sd=true', lectureLink: 'https://drive.google.com/file/d/1cKY5SwnAmgbodnoupuspuX5oxZvxJG0b/view?usp=sharing' },
+    { name: '社會統計 (Social Statistics)', syllabusLink: 'https://docs.google.com/document/d/1mIxHCrlEmHpzthAqNG2K35dNBQBRcEh1/edit?usp=drive_link&ouid=109490289094481032547&rtpof=true&sd=true', lectureLink: 'https://docs.google.com/document/d/1mIxHCrlEmHpzthAqNG2K35dNBQBRcEh1/edit?usp=drive_link&ouid=109490289094481032547&rtpof=true&sd=true' },
     { name: 'Statistics I', syllabusLink: 'https://drive.google.com/file/d/1XKRtbykEHNiY5MJ0bn_g_1zUX2D2bOBA/view?usp=sharing' },
     { name: 'Statistics II', syllabusLink: 'https://drive.google.com/file/d/1Ab0viiNuXZItT0yJ-YosmLiIoVZjKhIq/view?usp=sharing' },
     { name: '社會研究方法 (Social Research Methods)', lectureLink: 'https://drive.google.com/file/d/1dAC8JT7o4MapFk5VWC1NoY78qgEq0MX1/view?usp=sharing' },
