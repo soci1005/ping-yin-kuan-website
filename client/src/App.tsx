@@ -24,11 +24,11 @@ function App() {
           <Router base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
             <Navigation />
             <Switch>
-              <Route path={""} component={Home} />
-              <Route path={"publications"} component={Publications} />
-              <Route path={"courses"} component={Courses} />
-              <Route path={"academic-institutions"} component={AcademicInstitutions} />
-              <Route path={"404"} component={NotFound} />
+              <Route path={"/"} component={Home} />
+              <Route path={"/publications"} component={Publications} />
+              <Route path={"/courses"} component={Courses} />
+              <Route path={"/academic-institutions"} component={AcademicInstitutions} />
+              <Route path={"/404"} component={NotFound} />
               {/* Final fallback route */}
               <Route component={NotFound} />
             </Switch>
