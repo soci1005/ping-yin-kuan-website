@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- 首頁 -->
   <url>
-    <loc>https://acadcourses-zpmmz7ky.manus.space/</loc>
+    <loc>https://soci1005.github.io/ping-yin-kuan-website/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,7 +10,7 @@
   
   <!-- 學術著作頁面 -->
   <url>
-    <loc>https://acadcourses-zpmmz7ky.manus.space/publications</loc>
+    <loc>https://soci1005.github.io/ping-yin-kuan-website/publications</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -18,7 +18,7 @@
   
   <!-- 教授課程頁面 -->
   <url>
-    <loc>https://acadcourses-zpmmz7ky.manus.space/courses</loc>
+    <loc>https://soci1005.github.io/ping-yin-kuan-website/courses</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -26,7 +26,7 @@
   
   <!-- 學術連結頁面 -->
   <url>
-    <loc>https://acadcourses-zpmmz7ky.manus.space/academic-institutions</loc>
+    <loc>https://soci1005.github.io/ping-yin-kuan-website/academic-institutions</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

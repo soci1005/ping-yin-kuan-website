@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://acadcourses-zpmmz7ky.manus.space/sitemap.xml
+Sitemap: https://soci1005.github.io/ping-yin-kuan-website/sitemap.xml
