@@ -4,7 +4,7 @@ export default function Publications() {
   const journalArticles = [
     // 2016 年以後
     {
-      title: "What they gain from college is more than money: The impact of college expansion on subjective social status in Taiwan",
+      title: "What They Gain from College is More Than Money: The Impact of College Expansion on Subjective Social Status in Taiwan",
       authors: "Chan, Chin-Han & Ping-Yin Kuan",
       journal: "International Journal of Educational Development",
       year: 2026,
