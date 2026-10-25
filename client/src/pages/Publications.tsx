@@ -9,7 +9,7 @@ export default function Publications() {
       journal: "International Journal of Educational Development",
       year: 2026,
       volume: "125",
-      Article: "103652",
+      pages: "103652",
       "http://doi.org/10.1016/j.ijedudev.2026.103652",
       note: "(The First Prize winner, 2026 Taiwan Empirical Survey Data Paper Award: Taiwan Social Change Survey; the Grand Prize winner, 2026 Taiwan Empirical Survey Data Paper Award: Cross-database evaluation)" 
     },
