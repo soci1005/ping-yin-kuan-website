@@ -655,7 +655,7 @@ export default function Publications() {
                     <h3 className="font-semibold text-gray-900 mb-2">{article.title}</h3>
                     <p className="text-sm text-gray-700 mb-1">{article.authors}</p>
                     <p className="text-sm text-gray-600">
-                      <span className="font-medium">{article.journal}</span>, {article.journal}, {article.volume}, 
+                      <span className="font-medium">{article.journal}</span>, {article.journal}, {article.volume} 
                       {article.pages && `, pp. ${article.pages}`}
                       {article.articleNumber && `, Article ${article.articleNumber}`}
                     </p>
