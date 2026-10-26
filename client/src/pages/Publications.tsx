@@ -9,8 +9,8 @@ export default function Publications() {
       journal: "International Journal of Educational Development",
       year: 2026,
       volume: "125",
-      pages: "103652",
-      "http://doi.org/10.1016/j.ijedudev.2026.103652",
+      articleNumber: "103652",
+      doi: "10.1016/j.ijedudev.2026.103652",
       note: "(The First Prize winner, 2026 Taiwan Empirical Survey Data Paper Award: Taiwan Social Change Survey; the Grand Prize winner, 2026 Taiwan Empirical Survey Data Paper Award: Cross-database evaluation)" 
     },
     {
@@ -28,7 +28,7 @@ export default function Publications() {
       year: 2023,
       volume: "51",
       pages: "161-204",
-      "http://doi.org/10.7014/SRMA.2023100004"
+      doi: "10.7014/SRMA.2023100004"
     },
     {
       title: "Time Will Tell: Revisiting the Impact of College Expansion on Income and Occupational Prestige Mobility of Young Adults in Taiwan",
@@ -37,7 +37,7 @@ export default function Publications() {
       year: 2021,
       volume: "75(3)",
       pages: "468-486",
-      "http://doi.org/10.1111/hequ.12285"
+      doi: "10.1111/hequ.12285"
     },
     {
       title: "Graduates' Career Success Predicted by Mathematical and Affective Abilities, Effective Higher-Education Learning and Economic Contexts: A Bioecological Positivity to Success Model",
@@ -46,7 +46,7 @@ export default function Publications() {
       year: 2021,
       volume: "34(3)",
       pages: "313-330",
-      "http://doi.org/10.1080/13639080.2021.1931668"
+      doi: "10.1080/13639080.2021.1931668"
     },
     {
       title: "The Heterogeneous Effects of Participation in Shadow Education on Mental Health of High School Students in Taiwan",
@@ -55,7 +55,7 @@ export default function Publications() {
       year: 2021,
       volume: "18(3)",
       pages: "1222",
-      "http://doi.org/10.3390/ijerph18031222"
+      doi: "10.3390/ijerph18031222"
     },
     {
       title: "臺灣高教擴張對年輕世代薪資及職業的影響：反事實的分析",
@@ -72,7 +72,7 @@ export default function Publications() {
       year: 2018,
       volume: "50(4)",
       pages: "391-422",
-      "http://doi.org/10.1080/21620555.2018.1526069"
+      doi: "10.1080/21620555.2018.1526069"
     },
     {
       title: "從學校到勞力市場：簡介「台灣教育長期追蹤資料庫」及其後續追蹤調查",
@@ -89,7 +89,7 @@ export default function Publications() {
       year: 2016,
       volume: "60",
       pages: "99-133",
-      "http://doi.org/10.6786/TJS.201612_(60).0003"
+      doi: "10.6786/TJS.201612_(60).0003"
     },
     {
       title: "國中讀前段班有差嗎？能力分班對學習成就影響的反事實分析",
@@ -98,7 +98,7 @@ export default function Publications() {
       year: 2016,
       volume: "62(1)",
       pages: "1-33",
-      "http://doi.org/10.3966/102887082016036201001"
+      doi: "10.3966/102887082016036201001"
     },
     {
       title: "Social Context, Parental Exogamy and Hakka Language Retention in Taiwan",
@@ -107,7 +107,7 @@ export default function Publications() {
       year: 2016,
       volume: "37(8)",
       pages: "794-804",
-      "http://doi.org/10.1080/01434632.2016.1142551"
+      doi: "10.1080/01434632.2016.1142551"
     },
     // 2016 年以前
     {
@@ -117,7 +117,7 @@ export default function Publications() {
       year: 2015,
       volume: "55(2)",
       pages: "119-133",
-      "http://doi.org/10.1080/03630242.2014.979965"
+      doi: "10.1080/03630242.2014.979965"
     },
     {
       title: "台灣及東亞青少年的成長歷程：評The Psychological Well-being of East Asian Youth",
@@ -126,7 +126,7 @@ export default function Publications() {
       year: 2014,
       volume: "27",
       pages: "167-174",
-      "https://doi.org/10.6676/TS.2014.27.167"
+      doi: "10.6676/TS.2014.27.167"
     },
     {
       title: "The Impact of Multilevel Factors on Technology Integration: The Case of Taiwanese Grade 1-9 Teachers and Schools",
@@ -135,7 +135,7 @@ export default function Publications() {
       year: 2013,
       volume: "65(1)",
       pages: "25-50",
-      "http://doi.org/10.1007/s11423-012-9269-y"
+      doi: "10.1007/s11423-012-9269-y"
     },
     {
       title: "The Impact of Marital Discord of Parents on Taiwanese Adolescents' Academic Achievement: The Mediating and Moderating Effect of Maternal Parenting Practice",
@@ -144,7 +144,7 @@ export default function Publications() {
       year: 2011,
       volume: "42(6)",
       pages: "827-850",
-      "http://doi.org/10.3138/jcfs.42.6.827"
+      doi: "10.3138/jcfs.42.6.827"
     },
     {
       title: "國民中小學教師資訊融入教學素養評量表之建構與調查",
@@ -153,7 +153,7 @@ export default function Publications() {
       year: 2011,
       volume: "19(4)",
       pages: "335-357",
-      "http://doi.org/10.6173/CJSE.2011.1904.02"
+      doi: "10.6173/CJSE.2011.1904.02"
     },
     {
       title: "Effects of Cram Schooling on Mathematics Performance: Evidence from Junior High Students in Taiwan",
@@ -162,7 +162,7 @@ export default function Publications() {
       year: 2011,
       volume: "55(3)",
       pages: "342-368",
-      "http://doi.org/10.1086/659142",
+      doi: "10.1086/659142",
       note: "(The winner of the CIES George Bereday Award for the best article published in the Comparative Education Review in 2011)"
     },
     {
@@ -180,7 +180,7 @@ export default function Publications() {
       year: 2010,
       volume: "56(2)",
       pages: "105-139",
-      "http://doi.org/10.6910/BER.201006_(56-2).0004"
+      doi: "10.6910/BER.201006_(56-2).0004"
     },
     {
       title: "The Invisible Family: A Qualitative Study of Suicide Survivors in Taiwan",
@@ -189,7 +189,7 @@ export default function Publications() {
       year: 2010,
       volume: "32(2)",
       pages: "185-198",
-      "http://doi.org/10.1177/0193945909350630"
+      doi: "10.1177/0193945909350630"
     },
     {
       title: "撤散性思考與聚欲性思考的交會：有限解答之擴散性思考測驗之編製與信效度檢驗",
@@ -206,7 +206,7 @@ export default function Publications() {
       year: 2009,
       volume: "3",
       pages: "51-62",
-      "http://doi.org/10.1111/j.1753-1411.2008.00024.x"
+      doi: "10.1111/j.1753-1411.2008.00024.x"
     },
     {
       title: "補習數學有用嗎？─個「反事實」的分析",
@@ -215,7 +215,7 @@ export default function Publications() {
       year: 2008,
       volume: "41",
       pages: "97-148",
-      "http://doi.org/10.6786/TJS.200812_(41).0003"
+      doi: "10.6786/TJS.200812_(41).0003"
     },
     {
       title: "社會福利的權利與責任：一個質譜的探視",
@@ -232,7 +232,7 @@ export default function Publications() {
       year: 2006,
       volume: "37",
       pages: "169-205",
-      "http://doi.org/10.6786/TJS.200612.0169"
+      doi: "10.6786/TJS.200612.0169"
     },
     {
       title: "Peace, Not War - Adolescents' Management of Intergenerational Conflicts in Taiwan",
@@ -241,7 +241,7 @@ export default function Publications() {
       year: 2004,
       volume: "35",
       pages: "591-614",
-      "https://www.jstor.org/stable/41603969"
+      https://www.jstor.org/stable/41603969"
     },
     {
       title: "青少年以對立性方式處理人際衝突之研究",
@@ -266,7 +266,7 @@ export default function Publications() {
       year: 1999,
       volume: "22",
       pages: "121-171",
-      "http://doi.org/10.6786/TJS.199910.0127"
+      doi: "10.6786/TJS.199910.0127"
     },
     {
       title: "Stratification Beliefs in Taiwan",
@@ -655,8 +655,23 @@ export default function Publications() {
                     <h3 className="font-semibold text-gray-900 mb-2">{article.title}</h3>
                     <p className="text-sm text-gray-700 mb-1">{article.authors}</p>
                     <p className="text-sm text-gray-600">
-                      <span className="font-medium">{article.journal}</span>, {article.volume}, pp. {article.pages}
+                      <span className="font-medium">{article.journal}</span>, {article.journal}, {article.volume}, 
+                      {article.pages && `, pp. ${article.pages}`}
+                      {article.articleNumber && `, Article ${article.articleNumber}`}
                     </p>
+                    {article.doi && (
+                      <p>
+                        <a
+                          href={`https://doi.org/${article.doi}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:text-blue-800 underline"
+                        >
+                          DOI: https://doi.org/{article.doi}
+                        </a>
+                      </p>
+                    )}
+                  </div>
                     {article.note && (
                       <p className="text-sm text-blue-700 mt-2 italic">{article.note}</p>
                     )}
