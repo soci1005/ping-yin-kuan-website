@@ -240,8 +240,7 @@ export default function Publications() {
       journal: "Journal of Comparative Family Studies",
       year: 2004,
       volume: "35",
-      pages: "591-614",
-      https://www.jstor.org/stable/41603969"
+      pages: "591-614"
     },
     {
       title: "青少年以對立性方式處理人際衝突之研究",
@@ -655,13 +654,14 @@ export default function Publications() {
                     <h3 className="font-semibold text-gray-900 mb-2">{article.title}</h3>
                     <p className="text-sm text-gray-700 mb-1">{article.authors}</p>
                     <p className="text-sm text-gray-600">
-                      <span className="font-medium">{article.journal}</span>, {article.journal}, {article.volume} 
+                      <span className="font-medium">{article.journal}</span>, {article.volume}
                       {article.pages && `, pp. ${article.pages}`}
                       {article.articleNumber && `, Article ${article.articleNumber}`}
                     </p>
 
                     {article.doi && (
-                     <a
+                      <p className="text-sm mt-1">
+                        <a
                           href={`https://doi.org/${article.doi}`}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -669,8 +669,8 @@ export default function Publications() {
                         >
                           DOI: https://doi.org/{article.doi}
                         </a>
+                      </p>
                     )}
-                  </div>
                     {article.note && (
                       <p className="text-sm text-blue-700 mt-2 italic">{article.note}</p>
                     )}
