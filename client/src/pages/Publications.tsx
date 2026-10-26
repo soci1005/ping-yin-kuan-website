@@ -659,6 +659,8 @@ export default function Publications() {
                       {article.pages && `, pp. ${article.pages}`}
                       {article.articleNumber && `, Article ${article.articleNumber}`}
                     </p>
+                    )}
+                  </div>
                     {article.doi && (
                       <p>
                         <a
