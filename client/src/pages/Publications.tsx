@@ -659,11 +659,9 @@ export default function Publications() {
                       {article.pages && `, pp. ${article.pages}`}
                       {article.articleNumber && `, Article ${article.articleNumber}`}
                     </p>
-                    )}
-                  </div>
+
                     {article.doi && (
-                      <p>
-                        <a
+                     <a
                           href={`https://doi.org/${article.doi}`}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -671,7 +669,6 @@ export default function Publications() {
                         >
                           DOI: https://doi.org/{article.doi}
                         </a>
-                      </p>
                     )}
                   </div>
                     {article.note && (
