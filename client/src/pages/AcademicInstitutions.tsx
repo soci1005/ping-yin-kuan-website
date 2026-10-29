@@ -3,6 +3,7 @@ import { Building2, BookMarked } from "lucide-react";
 export default function AcademicInstitutions() {
   const affiliations = [
     '台灣羅四維夥伴學習促進協會 (Daniel Ross Association for the Promotion of Partner Based Learning)',
+    '輔仁大學基金會 (Fu Jen University Foundation)',
     '台灣社會學會 (Taiwan Sociological Association) - 理事 (2002-2004)',
     '台灣社會學會 (Taiwan Sociological Association) - 秘書長 (2000-2002)',
     '台灣教育長期追蹤資料庫 (Taiwan Education Panel Survey)',
@@ -16,6 +17,7 @@ export default function AcademicInstitutions() {
   ];
 
   const journals = [
+    '臺灣教育社會學研究'(Taiwan Journal of Sociology of Education) - 編輯委員 (2026 - Present)',
     '歐美研究季刊 (American and European Studies Quarterly) - 編輯委員 (2023 - Present)',
     '臺灣社會學刊 (Taiwanese Journal of Sociology) - 編輯委員 (2018-2020)',
     '當代教育研究 (Contemporary Educational Research) - 編輯委員 (2016 - 2024)',
