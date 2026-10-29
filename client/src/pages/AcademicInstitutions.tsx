@@ -17,7 +17,7 @@ export default function AcademicInstitutions() {
   ];
 
   const journals = [
-    '臺灣教育社會學研究'(Taiwan Journal of Sociology of Education) - 編輯委員 (2026 - Present)',
+    '臺灣教育社會學研究 (Taiwan Journal of Sociology of Education) - 編輯委員 (2026 - Present)',
     '歐美研究季刊 (American and European Studies Quarterly) - 編輯委員 (2023 - Present)',
     '臺灣社會學刊 (Taiwanese Journal of Sociology) - 編輯委員 (2018-2020)',
     '當代教育研究 (Contemporary Educational Research) - 編輯委員 (2016 - 2024)',
