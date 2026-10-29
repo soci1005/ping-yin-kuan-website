@@ -475,8 +475,8 @@ export default function Publications() {
       projectNumber: "NSC-97-2410-H-004-178-MY3"
     },
     {
-      title: "自認選族之民族認同研究",
-      author: "曾要琮、關秉寅",
+      title: "自殺遺族之民族誌研究",
+      author: "曾雯琦、關秉寅",
       year: 2009,
       projectNumber: "NSC-96-2314-B-016-050-MY2"
     },
