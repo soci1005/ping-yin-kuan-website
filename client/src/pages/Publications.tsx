@@ -166,7 +166,7 @@ export default function Publications() {
       note: "(The winner of the CIES George Bereday Award for the best article published in the Comparative Education Review in 2011)"
     },
     {
-      title: "生命壓力事件與個人宗教性之間係的探討",
+      title: "生命壓力事件與個人宗教性之間關係的探討",
       authors: "關秉寅、彭士芬",
       journal: "台灣宗教研究",
       year: 2010,
@@ -192,7 +192,7 @@ export default function Publications() {
       doi: "10.1177/0193945909350630"
     },
     {
-      title: "撤散性思考與聚欲性思考的交會：有限解答之擴散性思考測驗之編製與信效度檢驗",
+      title: "擴散性思考與聚斂性思考的交會：有限解答之擴散性思考測驗之編製與信效度檢驗",
       authors: "陳學志、洪美蒨、許樺芬、鄧皓政、關秉寅、詹志昇",
       journal: "教育科學研究期刊",
       year: 2009,
@@ -209,7 +209,7 @@ export default function Publications() {
       doi: "10.1111/j.1753-1411.2008.00024.x"
     },
     {
-      title: "補習數學有用嗎？─個「反事實」的分析",
+      title: "補習數學有用嗎？一個「反事實」的分析",
       authors: "關秉寅、李教義",
       journal: "台灣社會學刊",
       year: 2008,
@@ -218,7 +218,7 @@ export default function Publications() {
       doi: "10.6786/TJS.200812_(41).0003"
     },
     {
-      title: "社會福利的權利與責任：一個質譜的探視",
+      title: "社會福利的權利與責任：一個實證的探視",
       authors: "王永慈、關秉寅、王卓琪、鄧康良",
       journal: "中國社會工作研究",
       year: 2007,
@@ -235,7 +235,7 @@ export default function Publications() {
       doi: "10.6786/TJS.200612.0169"
     },
     {
-      title: "Peace, Not War - Adolescents' Management of Intergenerational Conflicts in Taiwan",
+      title: "Peace, Not War: Adolescents' Management of Intergenerational Conflicts in Taiwan",
       authors: "Kuan, Ping-Yin",
       journal: "Journal of Comparative Family Studies",
       year: 2004,
@@ -251,7 +251,7 @@ export default function Publications() {
       pages: "35-78"
     },
     {
-      title: "青少年處理人際組紛方式初探",
+      title: "青少年處理人際糾紛方式初探",
       authors: "關秉寅",
       journal: "應用心理研究",
       year: 2001,
@@ -259,7 +259,7 @@ export default function Publications() {
       pages: "141-173"
     },
     {
-      title: "台灣社會民眾處理人際組紛方式之研究",
+      title: "台灣社會民眾處理人際糾紛方式之研究",
       authors: "關秉寅",
       journal: "台灣社會學刊",
       year: 1999,
@@ -352,14 +352,14 @@ export default function Publications() {
       pages: "pp. 87-113"
     },
     {
-      title: "爭靜革命：台灣社會債信觀的變化",
+      title: "寧靜革命：台灣社會價值觀的變化",
       authors: "關秉寅、王永慈",
       publisher: "王振寰、章英華主編《凝聚台灣生命力》，巨流",
       year: 2005,
       pages: "頁65-99"
     },
     {
-      title: "青少年以對立性方式處理人際組紛之研究",
+      title: "青少年以對立性方式處理人際糾紛之研究",
       authors: "關秉寅",
       publisher: "國立台北大學犯罪學研究所主編《二〇〇二犯罪問題研究研討會論文集》，國立台北大學",
       year: 2002,
@@ -373,7 +373,7 @@ export default function Publications() {
       pages: "Traduzione dall'inglese di Martina Scalzerle"
     },
     {
-      title: "青少年以對立性方式處理人際組紛之研究初探",
+      title: "青少年以對立性方式處理人際糾紛之研究初探",
       authors: "關秉寅",
       publisher: "侯崇文主編《2000年犯罪問題理論與實務研討會論文集》，國立台北大學",
       year: 2000,
@@ -445,7 +445,7 @@ export default function Publications() {
       projectNumber: "MOST-102-2511-S-002-002"
     },
     {
-      title: "回憶補習風氣對國中生學習成就之影響",
+      title: "同儕補習風氣對國中生學習成就之影響",
       author: "關秉寅",
       year: 2014,
       projectNumber: "MOST-102-2410-H-004-137"
@@ -535,7 +535,7 @@ export default function Publications() {
       projectNumber: "台北市政府政府研究發展考核委員會"
     },
     {
-      title: "青少年以對立性方式處理人際組紛之研究",
+      title: "青少年以對立性方式處理人際糾紛之研究",
       author: "關秉寅",
       year: 2003,
       projectNumber: "NSC-91-2412-H-004-012"
@@ -553,19 +553,19 @@ export default function Publications() {
       projectNumber: "台北縣政府委託研究計畫"
     },
     {
-      title: "九〇年代大陸基層教發展現況研究",
+      title: "九〇年代大陸基層宗教發展現況研究",
       author: "關秉寅、楊開燁",
       year: 2000,
       projectNumber: "行政院大陸委員會"
     },
     {
-      title: "青少年犯罪問題與其防制對策─青少年處理人際組紛的態度與行為研究(Ⅱ)",
+      title: "青少年犯罪問題與其防制對策─青少年處理人際糾紛的態度與行為研究(Ⅱ)",
       author: "關秉寅",
       year: 2000,
       projectNumber: "NSC-88-2418-H-030-002-Q14"
     },
     {
-      title: "青少年犯罪問題與其防制對策─青少年處理人際組紛的態度與行為研究(Ⅰ)",
+      title: "青少年犯罪問題與其防制對策─青少年處理人際糾紛的態度與行為研究(Ⅰ)",
       author: "關秉寅",
       year: 1999,
       projectNumber: "NSC-87-2418-H-030-004-Q14"
@@ -583,7 +583,7 @@ export default function Publications() {
       projectNumber: "輔仁大學研究獎勵"
     },
     {
-      title: "台灣社會民眾處理人際組紛方式之研究",
+      title: "台灣社會民眾處理人際糾紛方式之研究",
       author: "關秉寅",
       year: 1997,
       projectNumber: "NSC-86-2412-H-030-001"
