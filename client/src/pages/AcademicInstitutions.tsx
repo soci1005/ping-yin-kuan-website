@@ -4,7 +4,7 @@ export default function AcademicInstitutions() {
   const affiliations = [
     '台灣羅四維夥伴學習促進協會 (Daniel Ross Association for the Promotion of Partner-Based Learning)',
     '輔仁大學基金會 (Fu Jen University Foundation)',
-    '台灣社會學會 (Taiwan Sociological Association) - 秘書長 (2000-2002)、理事 (2002-2004)',
+    '台灣社會學會 (Taiwanese Sociological Association) - 秘書長 (2000-2002)、理事 (2002-2004)',
     '台灣教育長期追蹤資料庫 (Taiwan Education Panel Survey)',
     '台灣教育長期追蹤資料庫後續調查 (Taiwan Education Panel Survey and Beyond)',
     '臺灣後期中等教育長期追蹤資料庫 (Taiwan Upper Secondary Education Database)',
