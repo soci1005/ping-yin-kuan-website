@@ -11,7 +11,7 @@ export default function Publications() {
       volume: "125",
       articleNumber: "103652",
       doi: "10.1016/j.ijedudev.2026.103652",
-      note: "(The First Prize winner, 2026 Taiwan Empirical Survey Data Paper Award: Taiwan Social Change Survey; the Grand Prize winner, 2026 Taiwan Empirical Survey Data Paper Award: Cross-Database Evaluation)" 
+      note: "(The First Prize, 2026 Taiwan Empirical Survey Data Paper Award: Taiwan Social Change Survey; the Grand Prize, 2026 Taiwan Empirical Survey Data Paper Award: The Best Paper Overall Across Databases)" 
     },
     {
       title: "以反事實架構角度推估因果效應：2000年至2023年臺灣教育研究領域相關期刊論文之擇要回顧",
